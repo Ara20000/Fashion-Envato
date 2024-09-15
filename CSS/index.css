@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* Hero Section */
+.heroSection {
+    width: 100%;
+    height: 740px;
+    background-image: url("../Images/Hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fa {
+    display: none;
+}
+
+.navList {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-right: 92px;
+}
+
+.navListItem {
+    list-style: none;
+    color: #A6A6A6;
+}
+
+.navListItem + .navListItem {
+    margin-left: 35px;
+}
+
+.navListItem-Home {
+    color: #404040;
+}
+
+.navListItem a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.heroDiv {
+    display: flex;
+    flex-direction: column;
+    height: 334px;
+    width: 467px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+    margin-top: 181px;
+    color: #404040;
+}
+
+.heroh1 {
+    font-weight: 700;
+    font-size: 48px;
+    font-style: bold;
+    line-height: 58px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+.heroP {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: regular;
+    line-height: 24px;
+    line-height: 125%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.hero-btn {
+    padding: 26px 62px;
+    background-color: transparent;
+    border: 1px solid;
+    margin-top: 40px;
+}
+
+.hero-btn:hover {
+    cursor:pointer
+}
+
+.hero-svg {
+    display: flex;
+    height: 119px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+svg {
+    margin-top: 25px;
+}
+
+svg:hover {
+    cursor: pointer;
+}
+
+/* About Me Section */
+.about-me {
+    height: 680px;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #404040;
+}
+
+.aboutMeDiv {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.aboutMeImg {
+    width: 505px;
+    height: 636.78px;
+    padding-top: 69px;
+    flex-basis: 40%;
+}
+
+.aboutMeh2 {
+    height: 21px;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: bold;
+    line-height: 21px;
+    padding-top: 89px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.aboutMeP {
+    font-weight: 400;
+    font-size: 16px;
+    font-style: regular;
+    line-height: 19px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.firstP {
+    margin-top: 38px;
+}
+
+/* Gallery Section */
+.gallerySection {
+    height: 1342px;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #404040;
+}
+
+.galleryh2 {
+    text-align: center;
+    height: 21px;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: bold;
+    line-height: 21px;
+    vertical-align: top;
+}
+
+.galleryP {
+    text-align: center;
+    height: 21px;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 14px;
+    line-height: 21px;
+    vertical-align: top;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.gallery-Wrapper {
+    max-width: 1240px;
+}
+
+.gallery-div {
+    display: grid;
+    grid-template-areas: 
+    'a b c'
+    'd e f';
+    padding: 49px 50px 25px 50px;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    overflow: hidden;
+}
+
+.galleryImg {
+    width: 400px;
+    height: 516px;
+    object-fit: cover;
+}
+
+.ImgA {
+    grid-area: a;
+}
+
+.ImgB {
+    grid-area: b;
+}
+
+ .ImgC {
+    grid-area: c;
+}
+
+.ImgD {
+    grid-area: d;
+}
+
+.ImgE {
+    grid-area: e;
+}
+
+.ImgF {
+    grid-area: f;
+}
+
+.btn-svg {
+    text-align: center;
+}
+
+.viewAll-btn {
+   /* padding: 27px 82px 26px 42px;  */
+   margin-bottom: 56px;
+   margin-top: 30px;
+   background-color: transparent;
+   border: 1px solid;
+   width: 189px;
+   height: 74px;
+}
+
+.viewAll-btn:hover {
+    cursor: pointer;
+}
+
+.viewAll-svg {
+    margin-left: 18px;
+}
+
+/* Clients Section */
+.clientsSection {
+    width: 100%;
+    height: 283px;
+    background-color: #F2F2F2;
+    color: #404040;
+}
+
+.h2Clients {
+    text-align: center;
+    height: 21px;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 21px;
+    padding-top: 19px;
+    vertical-align: top;
+}
+
+.pClients {
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+.svg1 {
+    margin-left: 100px;
+    margin-top: 55px;
+    margin-bottom: 56px;
+   
+}
+
+.svg2 {
+  
+    margin-top: 62.5px;
+    margin-bottom: 62.5px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+
+.svg3 {
+    margin-right: 100px;
+    margin-top: 51px;
+    margin-bottom: 50px;
+   
+}
+
+/* Contact Me Section */
+.contactMeSection {
+    height: 955px;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #404040;
+}
+
+.h2Contact {
+    height: 21px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 21px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+.ImgContact {
+    width: 505px;
+    height: 636.78px;
+    margin-top: 24px;
+}
+
+.pContact {
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 35px;
+}
+
+.contactWrapper {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    gap: 125px;
+    /* justify-content: center;
+    align-items: center; */
+   
+}
+
+form {
+    margin-top: 62px;
+}
+
+input {
+    height: 40px;
+    width: 350px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+textarea {
+    height: 140px;
+    width: 350px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    resize: none;
+}
+
+.btn-contact {
+    padding: 10px 45px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid;
+    margin-left: 70px;
+}
+
+.btn-contact:hover {
+    cursor: pointer;
+}
+
+.p1Contact {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.svg-div {
+    text-align: center;
+}
+
+.svg-contact {
+    margin: 30px 20px;
+  
+}
+
+@media (max-width:768px) {
+    /* Hero Section */
+.heroSection {
+    width: 414px;
+    height: 896px;
+    background-image: url("https://res.cloudinary.com/do5bww2ng/image/upload/v1663876872/Fashion%20Envato/hero_image_n8zltw.png");
+    background-size: cover;
+    background-position: center;
+}
+.fa {
+    display: block;
+    padding-top: 37px;
+    padding-left: 20px;
+}
+
+.navList {
+    display: none;
+}
+
+.heroDiv {
+    margin-top: 450px;
+    padding-left: 20px;
+    /* margin-bottom: 114px; */
+    color: #fff;
+}
+
+.hero-btn {
+    display: none;
+}
+
+.heroh1 {
+    font-size: 24px;
+    line-height: 28.8px;
+    width: 189px;
+    height: 58px;
+}
+
+.heroP {
+    line-height: 18px;
+    font-size: 12px;
+    width: 284px;
+    height: 126px;
+}
+
+.hero-svg {
+    display: none;
+}
+
+/* About me section */
+.about-me {
+    width: 414px;
+    height: 559px;
+    background-color: #F2F2F2;
+    color: #404040;
+}
+
+.aboutMeh2 {
+    margin-top: 48px;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.aboutMeImg {
+    width: 111px;
+    height: 203px;
+}
+
+.textDiv {
+    width: 243px;
+    height: 451px;
+    font-size: 9px;
+    line-height: 13.5px;
+    font-weight: 400;
+}
+}
